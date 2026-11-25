@@ -134,7 +134,7 @@ def build_console_logs(
         badge = f"[{status}]"
         logs.append({
             "type": log_type,
-            "text": f"[Tinyfah::{sc}] {badge} {name}: {evidence[:160]}",
+            "text": f"[TracePoint::{sc}] {badge} {name}: {evidence[:160]}",
             "source": f"asvs_{sc.lower()}",
             "time": time.strftime("%H:%M:%S"),
         })
